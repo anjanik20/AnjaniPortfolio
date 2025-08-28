@@ -1,0 +1,637 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.custom-header.navbar {
+    background-color: #11212D !important;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px; /* Space between nav items */
+}
+
+.navbar-brand {
+    font-size: 23px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-size: 16px;
+}
+
+.navbar-nav .nav-link:hover {
+    color:  #f4d03f  !important;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5); /* Change border color to white */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    /* Custom icon color to white */
+}
+
+.book-table-section {
+    position: relative;
+    background: url('DataBack.png') no-repeat center center; 
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .book-table-section .overall {
+    background: rgba(65, 64, 64, 0.292);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 20px; 
+} */
+
+.overall {
+    max-width: 800px; /* Limit width for readability */
+    margin: 0 auto; /* Center the content */
+    padding: 20px;
+    background-color: #ffffff; /* White background for content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* .book-table-section .content {
+    text-align: left; 
+    color:#070a37;
+    font-size:x-large;
+
+}
+
+.book-table-section .content h2 {
+ 
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: left; 
+    color:rgb(255, 255, 255); 
+    font-weight: bolder;
+    
+} */
+/*
+.book-table-section .content h3 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+
+/* .book-table-section .content h6 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    margin-left: 115px; 
+    color:rgb(255, 255, 255); 
+    font-weight: bolder;
+}
+.book-table-section .content h5 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    margin-left: 35px; 
+    font-weight: bolder;
+} */
+
+/* .book-table-section .content h6:hover{
+    color:  #f4d03f  !important
+}
+
+.book-table-section .content h5:hover{
+    color:  #f4d03f   !important
+} */
+
+.content {
+    text-align: center !important; /* Center-align text */
+}
+
+.project-title {
+    font-size: 2.8; 
+    color: #461961; 
+    margin-bottom: 20px;
+}
+
+.for-title,
+.restaurant-name {
+    font-size: 2.8;
+    color: #461961; 
+    margin-bottom: 10px;
+}
+
+.project-details,
+.course-prompt,
+.individual-project,
+.duration,
+.tools-used {
+    font-size: 1.2rem;
+    color: #61676b; 
+    margin: 10px 0;
+}
+
+.project-details strong,
+.course-prompt strong,
+.individual-project strong,
+.duration strong,
+.tools-used strong {
+    color: #461961; 
+    font-weight: bold;
+}
+
+.book-table-section h3{
+    color: #461961; 
+    font-weight: bold;
+}
+.book-table-section h4{
+    color: #7AC5FF; 
+}
+
+.book-table-section .btn {
+    font-size: 1.2em;
+    background-color: #e07a5f;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px; 
+}
+
+.book-table-section .btn:hover {
+    background-color: #d56b4d;
+}
+
+.button-booking2 {
+    background-color: #e07a5f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: -540px; /* Adjust if needed */
+}
+
+.button-booking2:hover {
+    background-color: #d56b4d;
+}
+
+.objective-section{
+    background-color:#c1e4ff ;
+}
+
+.objective-section h3{
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #461961;
+    font-weight: bolder;
+}
+
+.objective-section p{
+    font-size: 1.1em;;
+    line-height: 1.6;
+    color: #000000;
+
+}
+
+
+
+.problem-goals-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+
+.image-section{
+    background-color: #E8E2DA;
+} 
+
+
+.problem-goals-section .goals,
+.problem-goals-section .problem {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.problem-goals-section h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #461961;
+    font-weight: bolder;
+}
+
+.problem-goals-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.problem-goals-section p {
+    font-size: 1.1em;;
+    line-height: 1.6;
+    color: #000000;
+}
+.problem-goals-section li{
+    font-size:  1.1em;
+    color: #000000 ;
+}
+
+.research {
+    padding: 3rem 1rem;
+    background-color:#B1ABDE;
+}
+.research-header {
+    text-align:center;
+    margin-bottom: 1.5rem;
+}
+.research-header h3 {
+    font-size: 2em;
+    /* font-weight: bold; */
+    color:#461961;
+    font-weight: bolder;
+}
+.research-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.research-description {
+    margin-bottom: 2rem;
+    font-size: 1.1em;
+    color: #000000;
+    line-height: 1.6;
+}
+/* Questionnaire Section Styling */
+.questionnaire {
+    background-color: #f8f9fa; /* Light background to differentiate section */
+    padding: 50px 0;
+}
+
+.questionnaire h3 {
+    font-size: 2rem;
+    font-weight:bolder;
+    color:#461961;
+    margin-bottom: 30px;
+}
+
+.questionnaire h5 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #000000; /* Darker gray for section headings */
+    margin-bottom: 15px;
+}
+
+.questionnaire ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+}
+
+.questionnaire li {
+    font-size: 1rem;
+    color: #0d1b29; /* Navy blue text for questions */
+    margin-bottom: 10px;
+    line-height: 1.6;
+    padding-left: 20px;
+    position: relative;
+}
+
+.questionnaire li::before {
+    content: "\f0da"; /* FontAwesome arrow icon */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #f4d03f; /* Soft gold for the icon */
+    font-size: 0.9rem;
+}
+
+.questionnaire .row > div {
+    margin-bottom: 30px; /* Add spacing between columns on smaller screens */
+}
+
+/* Small screens - Stack columns vertically */
+@media (max-width: 767px) {
+    .questionnaire ul {
+        padding-left: 0; /* Align content to the left */
+    }
+}
+
+.complex-algorithm-insights {
+    background-color: #f8f9fa; /* Light background for contrast */
+    padding: 40px 0; /* Vertical padding */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.complex-algorithm-insights h3 {
+    font-size: 2rem; /* Font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color:#461961; /* Dark navy color for text */
+    font-weight: bolder;
+
+}
+
+.complex-algorithm-insights p {
+    font-size: 1.1rem; /* Standard font size for the description */
+    line-height: 1.5; /* Spacing between lines */
+    color: #000000; /* Dark gray color for text */
+}
+
+.complex-algorithm-insights img {
+    border-radius: 8px; /* Rounded corners for the image */
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.personas {
+    padding: 50px 0;
+    background-color: #c1e4ff;
+}
+
+.persona-header {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.persona-header h3 {
+    font-size: 2rem;
+    /* font-weight: bold; */
+    color:#461961;
+    font-weight: bolder;
+}
+
+.persona img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.persona-info p {
+    font-size: 1.1em; /* Adjust the size to your preference */
+    line-height: 1.6; /* Adjust line height for better readability */
+    color: #000000;
+}
+
+.userflow {
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 40px 0; /* Vertical padding */
+}
+
+.userflow h3 {
+    font-size: 2rem; /* Font size for the header */
+    color: #461961; /* Color matching your theme */
+    margin-bottom: 20px; /* Space below the header */
+   font-weight: bolder;
+}
+
+.userflow .img-fluid {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 800px; /* Increase maximum width of images */
+}
+
+.userflow .row {
+    margin-right: 0; /* Remove right margin */
+    margin-left: 0; /* Remove left margin */
+}
+
+.userflow .col-lg-6 {
+    padding: 0; /* Remove padding to ensure no space between images */
+}
+.wireframes h3 {
+    font-size: 2rem;
+    /* font-weight: bold; */
+    color:#461961;
+    font-weight: bolder;
+}
+
+.wireframes .value-proposition-description {
+    font-size: 1.1rem;
+    color: #000000; /* Dark gray text */
+    margin-bottom: 2rem;
+}
+
+.wireframes img {
+    max-width: 100%; /* Ensure responsiveness */
+    width: 100%; /* Increase the image width to 100% */
+    border: 2px solid #ecf0f1; /* Light gray border around image */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+
+@media (max-width: 768px) {
+    .wireframes h3 {
+        font-size: 2rem;
+    }
+
+    .wireframes .value-proposition-description {
+        font-size: 1rem;
+    }
+
+    .wireframes img {
+        max-width: 100%; /* Full width on smaller screens */
+        width: 100%; /* Ensure the image still takes up the full width */
+    }
+}
+
+
+
+.low-fidelity-insights{
+    background-color: #B1ABDE;
+}
+.low-fidelity-insights h3 {
+    font-size: 2rem;
+    /* font-weight: bold; */
+    color:#461961;
+    font-weight: bolder;
+    margin-top: 20px;
+
+}
+.low-fidelity-insights p{
+    font-size: 1.3rem;
+    color: #000000;
+} 
+
+
+.insight-list {
+    margin-top: 0;
+    padding-left: 20px; /* Indentation for the list */
+    color: #000000; /* Change text color if needed */
+    font-size: 1.1rem;
+}
+
+.insight-list li {
+    margin-bottom: 10px; /* Space between list items */
+}
+.mockups img {
+    max-width: 100%;
+    border: 2px solid #ecf0f1; /* Light gray border around image */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.mockups h3{
+    font-size: 2rem;
+    /* font-weight: bold; */
+    color:#461961;
+    font-weight: bolder;
+    /* margin-top: 20px; */
+
+}
+
+.mockup-description{
+    font-size: 1.1rem;
+    color:#000000;
+}
+
+@media (max-width: 768px) {
+    .mockups h3 {
+        font-size: 2rem;
+    }
+
+    .mockup-description {
+        font-size: 1rem;
+    }
+}
+
+.high-fidelity-prototype .col-lg-6:first-child {
+    justify-content: flex-start; /* Align content to the top */
+    margin-top: 0; /* Ensure no margin at the top */
+    padding-top: 0; /* Ensure no extra padding */
+    
+}
+
+.high-fidelity-prototype h3 {
+    font-size: 2rem;
+    /* font-weight: bold; */
+    color:#461961;
+    font-weight: bolder;
+    /* margin-top: 20px; */
+    margin-bottom: 10px;
+}
+
+.high-fidelity-prototype p {
+    margin-bottom: 15px; /* Adjust spacing below paragraph */
+    font-size: 1.1rem;
+    color: #000000;
+}
+
+.high-fidelity-prototype .btn {
+    padding: 10px 20px; /* Adjust button padding */
+    margin-right: 10px; /* Adjust space between buttons */
+    border-radius: 16px;
+}
+
+.btn-primary {
+    margin-right: 10px !important;
+    background-color: #461961 !important;
+    color: rgb(255, 255, 255) !important;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #007BFF !important;
+}
+
+.btn-primary2{
+    background-color: #461961 !important;
+    color: rgb(255, 255, 255) !important;
+    border: none;
+}
+
+.btn-primary2:hover {
+    background-color: #007BFF !important;
+}
+
+.HE {
+    padding: 3rem 1rem;
+    background-color:#c1e4ff;
+}
+.HE-header {
+    text-align:center;
+    margin-bottom: 1.5rem;
+}
+.HE-header h3 {
+    font-size: 2em;
+    /* font-weight: bold; */
+    color:#461961;
+    font-weight: bolder;
+}
+.HE-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.HE-description{
+    margin-bottom: 2rem;
+    font-size: 1.1em;
+    color: #000000;
+    line-height: 1.6;
+}
+.takeaway{
+    background-color: #B1ABDE ;
+}
+
+.takeaway h3{
+    font-size: 2rem;
+    /* font-weight: bold; */
+    color:#461961;
+    font-weight: bolder;
+    /* margin-top: 20px; */
+
+}
+
+.takeaway-description{
+    color: #000000;
+    font-size: 1.1rem;
+}
+
+/* Ensure the modal dialog adapts responsively */
+.modal-dialog {
+    max-width: 100%;
+    width: auto !important;
+}
+
+.modal-content {
+    height: auto;
+    max-height: 90vh; /* Ensure modal doesn't overflow on small screens */
+}
+
+/* Make the iframe responsive */
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+.embed-responsive-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}

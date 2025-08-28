@@ -1,0 +1,362 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.custom-header.navbar {
+    background-color: rgb(17, 33, 45) !important;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    /* margin-left: auto;
+    padding-right: 15px; */
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px; /* Space between nav items */
+    /* padding-right:;  */
+}
+
+.navbar-brand {
+    font-size: 23px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-size: 16px;
+}
+
+.navbar-nav .nav-link:hover {
+    color:  #f4d03f  !important;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5); /* Change border color to white */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    /* Custom icon color to white */
+}
+
+
+.Home {
+    background-color: rgb(17, 33, 45);
+    padding: 10% 0;
+}
+
+.Home .container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.Home .content {
+    flex: 1;
+    max-width: 50%;/* width of anjani kadam content */
+}
+
+
+.Home p {
+    font-size: 45px !important;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+/* Animation for appearing text */
+.animate-text span {
+    display: inline-block;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+}
+
+.animate-text span:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+.animate-text span:nth-child(2) {
+    animation-delay: 1.5s;
+}
+
+.animate-text span:nth-child(3) {
+    animation-delay: 2.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.Home h1 {
+    font-size: 55px; /* Slightly reduced font size for better spacing */
+    margin-bottom: 20px;
+    color: rgb(244, 208, 63)  }
+
+/* Rest of the styles for other sections */
+.Aboutme{
+    background-color: #11212D;
+    padding: 5% 0;
+    text-align: left;
+}
+
+.Aboutme h1{
+    color: #f4d03f !important;
+    font-size: 2.5rem !important;    
+}
+
+.Aboutme p{
+color: #ffffff;
+}
+/* .Resume{
+    background-color: #11212D;
+    padding: 5% 0;
+} */
+
+#about-me .container {
+    border-bottom: 3px solid #ffffff; /* White border */
+    padding-bottom: 20px; /* Space between content and border */
+}
+
+.Resume {
+    background-color: #11212D;
+    padding: 5% 0;
+    text-align: center; /* Center-aligns the text by default */
+}
+
+#resume h1 {
+    margin: 0;
+    padding-bottom: 10px;
+    color: #f4d03f;
+    font-size: 2.5rem;
+}
+
+.text-wrapper p {
+    margin: 0;
+    padding-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.button-wrapper {
+    text-align: center; /* Ensure button remains centered */
+}
+
+
+#resume .container {
+    border-bottom: 3px solid #ffffff; /* White border */
+    padding-bottom: 20px; /* Space between content and border */
+}
+
+
+
+.Projects{
+    background-color: #11212D;
+    padding: 5% 0;
+}
+.Projects h1{
+   color: #f4d03f !important;
+   font-size: 2.5rem !important;
+}
+
+.project-wrapper p {
+    color:rgb(255, 255, 255);
+    font-size: 1.1rem;
+}
+
+#projects .container{
+    border-bottom: 3px solid #ffffff; /* White border */
+    padding-bottom: 20px; /* Space between content and border */
+}
+
+.container , .Contact .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.Projects .container, .Resume .container, .Contact .container{
+    flex-direction: column;
+    align-items: center;
+}
+
+    /* .Aboutme .content , .Resume .content ,.Projects .content,.Contact .content{
+        flex:1;
+        max-width: 50%;
+        
+    } */
+
+.Aboutme h1, .Resume h1 ,.Projects h1 ,.Contact h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fffefe;
+}
+
+
+.Home h1 {
+    font-size: 55px; /* Slightly reduced font size for better spacing */
+    margin-bottom: 20px;
+    color: #f4d03f  ;
+}
+
+/* Optional: If you want a hover effect */
+/* .Home h2:hover, .Home h1:hover {
+    color: #ffffff; 
+    Hover color
+} */
+
+
+
+/* resume */
+button {
+    background-color:  #f4d03f ; /* Green background */
+    border: none; /* Remove border */
+    color: #11212D; /* White text */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline */
+    font-size: 16px; /* Font size */
+    margin: 10px 2px; /* Margin */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 10px; /* Rounded corners */
+    /* transition: background-color 0.3s ease; Smooth hover effect */
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #f4d762; /* Darker green on hover */
+}
+
+/* Custom card styling */
+.custom-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* height: 400px;
+    width:300px; */
+}
+
+.custom-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.custom-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card .card-body {
+    padding: 1.5rem;
+}
+
+.custom-card .btn-primary {
+    background-color: #11212D;
+    border-color: #11212D;
+}
+
+.custom-card .btn-primary:hover {
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+}
+
+
+
+/* General Styles */
+#contact {
+    background-color: #11212D; /* Light background color */
+}
+
+#contact h1 {
+    font-size: 2.5rem;
+    /* font-weight: 700; */
+    margin-bottom: 0.5rem;
+    color: #f4d03f;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+#contact .icons a {
+    color: #e70f0f !important;
+    transition: color 0.3s ease;
+}
+
+#contact .icons a:hover {
+    color: #007bff; /* Hover color */
+}
+
+#contact .fa-2x {
+    font-size: 2rem;
+    color:white;
+}
+
+/* Flexbox Styles */
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+/* Contact Links */
+#contact a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+}
+
+#contact a:hover {
+    color: #007bff;
+}
+
+#contact i {
+    margin-right: 10px;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    #contact h1 {
+        font-size: 2rem;
+    }
+
+    #contact .fa-2x {
+        font-size: 1.5rem;
+    }
+
+    #contact a {
+        margin-bottom: 1rem;
+    }
+}
+
+
